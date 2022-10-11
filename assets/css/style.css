@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+}
+#container{
+
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+}
+fieldset{
+    
+    margin-top: 60px;
+    width: 30%;
+    border: 1px solid black;  
+    padding: 50px;
+    
+  
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+label{
+ font-size: 22px;
+ padding: 10px;
+}
+input{
+    padding: 15px;
+    border-radius: 10px;
+}
+table
+{
+    margin-top: 100px;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+   
+}
+tr{
+   
+}
+td{
+  display:flex;
+  
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div id="container">
+        <div>
+           
+            <fieldset>
+                    <legend>Registrazione</legend>
+                 <form action=""metho="POST"id="form">
+                    <label for="">Nome:</label>
+                    <input type="text" name="nome" id="nome"placeholder="inserisci nome..."><br>
+                    <label for="">Cognome:</label>
+                    <input type="text" name="cognome" id="cognome"placeholder="inserisci cognome..."><br>
+                    <label for="">Date:</label>
+                    <input type="date" name="data"id="data">
+                </form>
+         </fieldset>
+      </div>
+
+      <button id="btn"type="button"onclick="add()">ADD</button>
+
+        <table id="list">
+            <thead>
+               <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Data di nascita</th>
+               </tr> 
+            </thead>
+            <tbody id="tbody">
+               
+            </tbody>
+        </table>
+       
+ </div>
+ <div id="carsList">
+
+ </div>
+    <script src="./assets/js/style.js"></script>
+    <script src="./assets/js/classe.js"></script>
+
+</body>
+</html>
